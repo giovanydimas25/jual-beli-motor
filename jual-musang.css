@@ -7,6 +7,10 @@
     table alternate color : #e5e8ed
 */
 
+
+
+
+
 body {
   background-color: blanchedalmond;
   color:black;
@@ -15,6 +19,9 @@ body {
   margin: 0;
   padding: 15px;
 }
+
+
+
 
 
 
@@ -85,7 +92,7 @@ body {
 }
 
 .tm-text-white{
-    color: aliceblue;
+    color: rgb(1, 14, 26);
 }
 
 .tm-page-head-container{
@@ -100,6 +107,11 @@ body {
     font-size: 2.1rem;
     font-weight: 400;
 }
+
+
+
+
+
 
 .tm-main-content{
     color: antiquewhite;
@@ -302,6 +314,56 @@ line-height: 1;
 
 
 
+.testimoni {
+  text-align: center;
+  padding: 40px 20px;
+  background: #f4f4f4;
+}
+
+.testi-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.testi-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.testi-card img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.testi-card h3 {
+  margin: 5px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.rating {
+  color: gold;
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.testi-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+
+
+
 
 table {
   border-collapse: collapse;
@@ -319,4 +381,32 @@ th, td {
 th {
   background: #333;
   color: white;
+}
+
+
+
+
+
+/* === VIDEO HEADER === */
+header .video-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+header .video-container video {
+  width: 100%;          /* hampir full layar */
+  max-width: 1500px;   /* batas maksimal */
+  border-radius: 10px; /* sudut rounded */
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+video{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
 }
